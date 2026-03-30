@@ -22,9 +22,6 @@ buttons.forEach(button => {
                 display.value = result;
             } catch (e) {
                 display.value = 'Error';
-                setTimeout(() => {
-                    display.value = '';
-                }, 2000);
             }
             return;
         }
